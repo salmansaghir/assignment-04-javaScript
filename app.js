@@ -81,5 +81,41 @@
 // var arr = ['This ', ' is ', ' my ', ' cat']
 // document.write(`<h1>Array:</h1>${arr} <br>`)
 // var arr2
-// arr2 = arr.join("")
+// arr2 = arr.join(" ")
 // document.write(`<h1>String:</h1>${arr2}`)
+//Q13
+// var fifo=[];
+
+// fifo.push('Keyboard')
+// fifo.push('mouse')
+// fifo.push('printer')
+// fifo.push('monitor')
+// document.write(`Devices:<br>`)
+// document.write(fifo)
+// document.write(`<br>output<br>${fifo.shift()} <br>
+// output<br>${fifo.shift()} <br>
+// output<br>${fifo.shift()} <br>
+// output<br>${fifo.shift()} <br> `)
+
+//Q14
+// var fifo=[];
+
+// fifo.push('Keyboard')
+// fifo.push('mouse')
+// fifo.push('printer')
+// fifo.push('monitor')
+// document.write(`Devices:<br>`)
+// document.write(fifo)
+// document.write(`<br>output<br>${fifo.pop()} <br>
+// output<br>${fifo.pop()} <br>
+// output<br>${fifo.pop()} <br>
+// output<br>${fifo.pop()} <br> `)
+
+//Q15
+// var phone=['apple','samsung','motorola','nokia','sony','haier']
+// document.write(`<select> <option>${phone[0]}</option>
+// <option>${phone[1]}</option>
+// <option>${phone[2]}</option>
+// <option>${phone[3]}</option>
+// <option>${phone[4]}</option>
+// <option>${phone[5]}</option> </select>`)
